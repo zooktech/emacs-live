@@ -5,4 +5,5 @@
 
 ;; Load bindings config
 (live-load-config-file "scss-conf.el")
+(live-load-config-file "less-css-conf.el")
 (live-load-config-file "bindings.el")
