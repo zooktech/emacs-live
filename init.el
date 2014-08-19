@@ -162,7 +162,7 @@
                      "org-pack"
                      "clojure-pack"
                      "bindings-pack"
-                     "react-pack"))
+                     "web-pack"))
        (live-dir (file-name-as-directory "stable"))
        (dev-dir  (file-name-as-directory "dev")))
   (setq live-packs (mapcar (lambda (p) (concat live-dir p)) pack-names) )
