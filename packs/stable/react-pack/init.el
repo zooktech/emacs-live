@@ -3,7 +3,9 @@
 ;; Use this file to initiate the pack configuration.
 ;; See README for more information.
 
-;; Load bindings config
-(live-load-config-file "scss-conf.el")
+(live-load-config-file "web-conf.el")
+;; scss-mode and jsx-mode are currently disabled, as web-mode handles those files types.
+;; (live-load-config-file "scss-conf.el")
+;; (live-load-config-file "jsx-conf.el")
 (live-load-config-file "less-css-conf.el")
 (live-load-config-file "bindings.el")
